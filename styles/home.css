@@ -1,0 +1,1191 @@
+/* css header */
+
+.header_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10% 30%;
+  background-color: #fdebf0;
+}
+
+.header_achieve {
+  text-transform: uppercase;
+  font-family: "Titan One", cursive;
+  font-size: 7rem;
+  color: #ed1556;
+}
+
+.header_together {
+  display: flex;
+  font-family: "Titan One", cursive;
+  align-items: center;
+  font-size: 7rem;
+  text-transform: uppercase;
+  color: #ed1556;
+}
+
+.header_name1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header_image {
+  margin-right: 2rem;
+  height: 9rem;
+  width: 8rem;
+}
+
+.header_greate {
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  right: -100%;
+  color: black;
+}
+
+.header_by {
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  right: -160%;
+}
+
+.header_joinus {
+  padding: 20px;
+  font-family: "Titan One", cursive;
+  border-radius: 24px;
+  width: 9rem;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ed1556;
+  border: none;
+}
+
+.header_joinus:hover {
+  background-color: #ed1556;
+  transform: translateX(-5px) translateY(-5px);
+  box-shadow: 5px 5px 0 0 #121212;
+  transition: 0.5s;
+}
+
+/* end css header */
+
+/* css photos_fall */
+
+.photos_fall {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10% 30%;
+  background-color: #ffb4ca;
+}
+
+.photos_name1,
+.photos_name2,
+.photos_name3,
+.photos_name4 {
+  display: flex;
+  font-size: 5.5rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Titan One", cursive;
+  text-align: center;
+  color: #fff !important;
+}
+
+.photos_game {
+  padding: 20px;
+  font-family: "Titan One", cursive;
+  border-radius: 24px;
+  width: 12rem;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ed1556;
+  border: none;
+}
+
+.photos_game:hover {
+  background-color: #ed1556;
+  transform: translateX(-5px) translateY(-5px);
+  box-shadow: 5px 5px 0 0 #121212;
+  transition: 0.5s;
+}
+
+.photos_button {
+  margin-top: 4%;
+}
+
+/* css home_slider_icon */
+
+.home_slider_icon {
+  padding: 5% 10%;
+  padding-bottom: 10%;
+  background-color: #fdebf0;
+  width: 100% !important;
+}
+
+/* css beside_footer */
+
+.beside_images {
+  width: 100%;
+  background-color: #fdebf0;
+  height: 100%;
+}
+
+/* end css beside_footer */
+
+.header_achieve,
+.header_together,
+.header_greate,
+.header_by,
+.photos_name1,
+.photos_name2,
+.photos_name3,
+.photos_game {
+  opacity: 0;
+}
+
+.header_achieve {
+  animation: fade-in-h1 1.6s ease forwards;
+}
+
+.header_together {
+  animation: fade-in-h1 1.5s ease forwards;
+}
+
+.header_greate,
+.header_by {
+  animation: fade-in-h2 1.5s ease forwards;
+}
+
+.photos_name1 {
+  animation: fade-in-h1 1.25s ease forwards;
+}
+
+.photos_name2 {
+  animation: fade-in-h1 1.5s ease forwards;
+}
+
+.photos_name3 {
+  animation: fade-in-h1 1.75s ease forwards;
+}
+
+.header_joinus {
+  animation: fade-in-h1 1s ease forwards;
+}
+
+.photos_game {
+  opacity: 0;
+  animation: fade-in-button 2s ease forwards;
+}
+
+@keyframes fade-in-h1 {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-h2 {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-button {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header_image {
+  animation: zoom-in-out 1.6s ease forwards;
+}
+
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(2.2);
+  }
+  50% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* css text */
+.photos_name3 {
+  color: transparent;
+  font-size: 1.4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* css infor */
+
+.infor_number {
+  margin-bottom: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.infor_games,
+.infor_languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infor_games_h2,
+.infor_languages_h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #000000;
+}
+
+.infor_games_p,
+.infor_languages_p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.infor {
+  padding: 5% 16%;
+}
+
+.infor_outgames {
+  margin-top: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.infor_outgames_coloumn1 {
+  width: 25%;
+}
+
+.infor_column1_box1 {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.infor_column1_box1:hover,
+.infor_box2_child1:hover,
+.infor_box2_child2:hover,
+.infor_column1_box3:hover {
+  background-color: #ed1556;
+}
+
+.infor-box1-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2%;
+  padding: 5%;
+}
+
+.infor_box1_header_h5 {
+  border-right: 3px solid black;
+  padding-right: 2%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  /* black */
+
+  color: #000000;
+}
+
+.infor_box1_header_h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+
+  /* black */
+
+  color: #000000;
+}
+
+.infor_outgames_coloumn2 {
+  width: 30%;
+}
+
+.infor_column1_box2 {
+  width: 100%;
+  gap: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.infor_box2_child1 {
+  width: 100%;
+  padding: 5%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.infor_box2_child1_h4 {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.infor_box2_child1_h5 {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  /* black */
+
+  color: #000000;
+}
+
+.infor_box2_p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  padding: 5%;
+  color: #000000;
+}
+
+.infor_box2_child2 {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.infor_box2_header_h5 {
+  border-right: 3px solid black;
+  padding-right: 2%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.infor_box2_header_h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.infor_box2_child2_header {
+  display: flex;
+  gap: 2%;
+  padding: 5%;
+}
+
+.infor_box2_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.infor_outgames_coloumn3 {
+  width: 25%;
+}
+
+.infor_box3_header_h5 {
+  border-right: 3px solid black;
+  padding-right: 2%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.infor_box3_header_h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.infor_box3_header {
+  display: flex;
+  padding: 5%;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.infor_column1_box3 {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.infor_box3_circle1 {
+  /* padding: 9%;  */
+  text-align: center;
+}
+
+.infor_box3_images {
+  width: 200px;
+  height: 200px;
+}
+
+.child1_yellow,
+.child_blue,
+.child_purple,
+.child_oranges,
+.child_pink {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+.infor_box3_child1_p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start !important;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.infor_box3_child1_phantram {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.infor_box3_color {
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+}
+
+.infor_box3_child1 {
+  padding: 9% 0;
+}
+
+.home_slider_h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.home_slider_h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+}
+
+.home_slider_header {
+  padding: 6% 0;
+}
+
+/* earth */
+
+.earth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infor_box1-images {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.infor_box1_images_left,
+.infor_box1_images_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.infor_box2_images {
+  display: flex;
+  gap: 0.4rem;
+}
+
+/* Responsive home */
+@media only screen and (min-width: 1500px) and (max-width: 2060px) {
+  .infor_box1-images {
+    display: flex;
+    gap: 0.2rem;
+    justify-content: center;
+  }
+
+  .infor_box1_images_left,
+  .infor_box1_images_right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* css text */
+  .photos_name3 {
+    font-size: 5.5rem;
+    position: relative;
+    /* overflow: hidden;  */
+    width: 800px;
+    height: 100px;
+  }
+
+  .infor {
+    padding: 5% 16%;
+  }
+
+  .infor_outgames {
+    margin-top: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+  }
+
+  .infor_outgames_coloumn1 {
+    width: 29%;
+  }
+
+  .infor_column1_box1 {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+
+  .infor-box1-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  .infor_box1_header_h5 {
+    border-right: 3px solid black;
+    padding-right: 2%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    /* black */
+
+    color: #000000;
+  }
+
+  .infor_box1_header_h4 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+
+    /* black */
+
+    color: #000000;
+  }
+
+  /* .infor_box1_imgs {
+    margin-left: 4%;
+  } */
+
+  .infor_outgames_coloumn2 {
+    width: 30%;
+  }
+
+  .infor_column1_box2 {
+    width: 100%;
+    gap: 1.4rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infor_box2_child1 {
+    width: 100%;
+    height: 240px;
+    padding: 5%;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+
+  .infor_box2_child1_h4 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .infor_box2_child1_h5 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    /* black */
+
+    color: #000000;
+  }
+
+  .infor_box2_p {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    padding: 5%;
+    color: #000000;
+  }
+
+  .infor_box2_child2 {
+    width: 100%;
+    height: 240px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+
+  .infor_box2_header_h5 {
+    border-right: 3px solid black;
+    padding-right: 2%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .infor_box2_header_h4 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  .infor_box2_child2_header {
+    display: flex;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  .infor_box2_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+  }
+
+  .infor_outgames_coloumn3 {
+    width: 25%;
+  }
+
+  .infor_box3_header_h5 {
+    border-right: 3px solid black;
+    padding-right: 2%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .infor_box3_header_h4 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+  }
+
+  .infor_box3_header {
+    display: flex;
+    padding: 5%;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .infor_column1_box3 {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+
+  .infor_box3_circle1 {
+    /* padding: 9%;  */
+    text-align: center;
+  }
+
+  .infor_box3_images {
+    width: 200px;
+    height: 200px;
+  }
+
+  .child1_yellow,
+  .child_blue,
+  .child_purple,
+  .child_oranges,
+  .child_pink {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+  }
+
+  .infor_box3_child1_p {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start !important;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .infor_box3_child1_phantram {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .infor_box3_color {
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+  }
+
+  .infor_box3_child1 {
+    padding: 9% 0;
+  }
+
+  .home_slider_h2 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .home_slider_h4 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .home_slider_header {
+    padding: 6% 0;
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .infor_box1-images {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .infor_box1_images_left,
+  .infor_box1_images_right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header_achieve {
+    font-size: 5rem;
+  }
+
+  .header_together {
+    font-size: 5rem;
+  }
+
+  .header_image {
+    margin-right: 1rem;
+    height: 6rem;
+    width: 5rem;
+  }
+
+  .header_greate {
+    font-size: 1.5rem;
+  }
+
+  .header_by {
+    font-size: 1.5rem;
+  }
+
+  /* photos_fall */
+  .photos_fall {
+    padding: 7% 16%;
+  }
+
+  .photos_name1,
+  .photos_name2,
+  .photos_name3,
+  .photos_name4 {
+    font-size: 4.5rem;
+  }
+
+  .photos_name3 {
+    width: 800px;
+    height: 83px;
+  }
+
+  /* infor */
+
+  .infor {
+    padding: 2% 10%;
+  }
+
+  .infor_box1_imgs {
+    width: 120px;
+    height: 120px;
+  }
+
+  .infor_column1_box2 {
+    gap: 1rem;
+  }
+
+  .infor_box2_child2_img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .infor_box3_images {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Home slider icons */
+  .home_slider_icon {
+    padding: 2% 5%;
+    background-color: #fdebf0;
+    width: 100% !important;
+  }
+
+  .home_slider_header {
+    padding: 3% 0;
+  }
+
+  .home_slider_h2 {
+    font-size: 30px;
+  }
+
+  .home_slider_h4 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  /* .infor_box1-images {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .infor_box1_images_left,
+  .infor_box1_images_right {
+    display: flex;
+    align-items: center;
+  } */
+
+  .header_home {
+    padding: 20% 12%;
+  }
+
+  .header_achieve {
+    font-size: 4.5rem;
+  }
+
+  .header_together {
+    font-size: 4.5rem;
+  }
+
+  .header_create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+  }
+
+  .header_greate,
+  .header_by {
+    right: 0;
+    margin-bottom: 5%;
+  }
+
+  /* photos fall */
+  .photos_fall {
+    padding: 2% 6%;
+    height: 400px;
+  }
+
+  .photos_name1,
+  .photos_name2,
+  .photos_name3,
+  .photos_name4 {
+    font-size: 3.5rem;
+  }
+
+  .photos_name3 {
+    width: 800px;
+    height: 64px;
+  }
+
+  .photos_game {
+    font-size: 20px;
+    width: 10rem;
+  }
+
+  /* infor */
+
+  .infor_games_h2,
+  .infor_languages_h2 {
+    font-size: 3rem;
+  }
+
+  .infor_games_p,
+  .infor_languages_p {
+    font-size: 1rem;
+  }
+
+  .infor_outgames {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .infor_outgames_coloumn1,
+  .infor_outgames_coloumn2,
+  .infor_outgames_coloumn3 {
+    width: 100%;
+  }
+
+  .infor_column1_box2 {
+    gap: 2rem;
+  }
+
+  .infor_column1_box1,
+  .infor_column1_box2 {
+    width: 100%;
+  }
+
+  /* Home slider icons */
+  .home_slider_icon {
+    padding: 2% 5%;
+  }
+
+  .home_slider_h2 {
+    font-size: 2rem;
+  }
+
+  .home_slider_h4 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header_home,
+  .photos_fall,
+  .home_slider_icon,
+  .beside_images,
+  .footer_info {
+    padding: 10% 5%;
+  }
+
+  .header_achieve,
+  .header_together,
+  .header_greate,
+  .header_by,
+  .photos_name1,
+  .photos_name2,
+  .photos_name3,
+  .photos_game {
+    opacity: 1;
+  }
+
+  .header_home {
+    padding: 29% 5%;
+  }
+
+  .header_achieve {
+    font-size: 2.5rem;
+  }
+
+  .header_together {
+    font-size: 2.5rem;
+  }
+
+  .header_image {
+    width: 60px;
+    height: 60px;
+    margin-right: 1rem;
+  }
+
+  .header_greate,
+  .header_by {
+    right: 0;
+    font-size: 1rem;
+  }
+
+  .header_joinus {
+    width: 7rem;
+    font-size: 10px;
+  }
+
+  /* infor */
+
+  .infor_box2_child2_img,
+  .infor_box1_imgs {
+    width: 100px;
+    height: 100px;
+  }
+
+  .photos_fall {
+    height: 320px;
+  }
+
+  .photos_name1,
+  .photos_name2,
+  .photos_name3 {
+    font-size: 4rem;
+  }
+
+  .photos_game {
+    width: 10rem;
+    font-size: 20px;
+  }
+
+  .beside_image {
+    width: 100%;
+  }
+
+  .beside_image1,
+  .beside_image2,
+  .beside_image3,
+  .beside_image4,
+  .beside_image5 {
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  .footer_text {
+    font-size: 2rem;
+  }
+
+  .footer_contact {
+    font-size: 2.5rem;
+  }
+
+  .footer_icon {
+    font-size: 2rem;
+  }
+}

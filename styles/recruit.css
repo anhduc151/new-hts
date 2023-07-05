@@ -1,0 +1,168 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:ital,wght@0,400;1,300&family=Prompt:wght@600&family=Roboto&family=Sigmar+One&family=Titan+One&display=swap'); */
+.recruit_hiring {
+  background-color: #fdebf0;
+  width: 100%;
+  padding: 5% 0;
+  display: flex;
+  padding-right: 2%;
+}
+
+.recruit_hiring_img {
+  width: 40%;
+}
+
+.recruit_hiring_slider {
+  width: 70%;
+}
+
+.recruit_text1 {
+  background-color: #fdebf0;
+  padding: 2% 19%;
+  padding-bottom: 4rem;
+}
+
+.recruit_great {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+.recruit_great .recruit_h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+}
+
+.recruit_lorem {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* css recruit_form */
+
+.recruit_form_help {
+  background-color: #fdebf0;
+  padding-bottom: 4rem;
+}
+
+.recruit_form {
+  background-image: url("../public/images/recruit2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 12% 2%;
+}
+
+.recruit_doyou {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.recruit_form_lorem1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.recruit_button_support {
+  background: #ffb4ca;
+  padding: 6%;
+  border-radius: 37.5px;
+  border: none;
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  color: #ed1556;
+  width: 20rem;
+}
+
+.recruit_button_support:hover {
+  background: #ffb4ca;
+  transform: translateX(-5px) translateY(-5px);
+  box-shadow: 5px 5px 0 0 #121212;
+  transition: 0.5s;
+}
+
+/* Responsive Recruit */
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .recruit_hiring {
+    gap: 2%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .recruit_hiring_imgs {
+    max-width: 100%;
+    width: 60%;
+    max-height: 100%;
+    height: 74%;
+  }
+
+  .recruit_hiring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+  }
+
+  .recruit_doyou {
+    font-size: 2.5rem;
+  }
+
+  .recruit_form_lorem1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .recruit_great .recruit_h4 {
+    font-size: 1.6rem;
+  }
+
+  .recruit_lorem {
+    font-size: 1rem;
+  }
+
+  .recruit_doyou {
+    font-size: 1rem;
+  }
+
+  .recruit_form_lorem1 {
+    font-size: 0.6rem;
+  }
+
+  .recruit_button_support {
+    font-size: 0.8rem;
+    width: 5rem;
+  }
+
+  .recruit_form {
+    gap: 0;
+  }
+}

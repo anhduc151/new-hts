@@ -1,0 +1,69 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:ital,wght@0,400;1,300&family=Prompt:wght@600&family=Roboto&family=Sigmar+One&family=Titan+One&display=swap'); */
+.trafficnew_right_h2 {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  width: 40rem;
+  font-size: 50px;
+  /* text-align: center; */
+  line-height: 100.5%;
+  text-transform: uppercase;
+  color: #ed1556;
+}
+
+/* Responsive */
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .solitaire_game2 {
+    gap: 5%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .solitaire_game2 {
+    gap: 5%;
+  }
+
+  .solitaire_h1 {
+    font-size: 5rem;
+  }
+
+  .solotaire_heading_imgs {
+    width: 700px;
+    max-width: 100%;
+
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .solitaire_heading {
+    gap: 0 !important;
+    padding-top: 29%;
+  }
+
+  .solitaire_h1 {
+    font-size: 4rem;
+  }
+
+  .trafficnew_right_h2, .solitaire_right_h2 {
+    font-size: 1.6rem;
+    padding: 0 28%;
+  }
+
+  .solitaire_about_game,
+  .solitaire_game_all,
+  .solitaire_rights_button,
+  .solitaire_game2 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem !important;
+  }
+
+  .solitaire_right_p {
+    padding: 0 30%;
+    margin-top: 5%;
+  }
+}

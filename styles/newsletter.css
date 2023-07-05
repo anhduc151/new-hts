@@ -1,0 +1,88 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:ital,wght@0,400;1,300&family=Prompt:wght@600&family=Roboto&family=Sigmar+One&family=Titan+One&display=swap'); */
+.all_letter {
+    display: flex;
+    background-color: #020202;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 7%;
+}
+
+.all_letter_h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin: 5% 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.all_letter_p {
+    color: #6e6b6b;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.all_letter_div_p {
+    width: 45%;
+}
+
+.all_letter_right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.all_letter_input {
+    width: 34rem;
+    background-color: #fff;
+    padding: 3%;
+    border: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.all_letter_submit {
+    border-radius: 45px;
+    text-transform: uppercase;
+    background-color: #020202;
+    padding: 3%;
+    border: 1px solid rgb(102, 101, 101);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.all_letter_submit:hover {
+    background-color: #fff;
+    color: black;
+}
+
+/* Responsive Newletter */
+@media only screen and (max-width: 1300px) {
+    .all_letter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .all_letter_left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .all_letter {
+        padding: 0 5% !important;
+    }
+
+    .all_letter_input {
+        width: 16rem;
+    }
+
+    .all_letter_right {
+        gap: 1rem !important;
+        margin-bottom: 5%;
+    }
+}

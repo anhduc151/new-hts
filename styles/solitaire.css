@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:ital,wght@0,400;1,300&family=Prompt:wght@600&family=Roboto&family=Sigmar+One&family=Titan+One&display=swap'); */
+.solitaire_heading {
+  display: flex;
+  padding: 9% 0;
+  background-color: #fdebf1;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.solitaire_h1 {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 137px;
+  text-align: center;
+  color: #ed1556;
+}
+
+.solitaire_about_game {
+  background-color: #ffb4ca;
+  padding: 5% 16%;
+}
+
+.solitaire_game_all {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+
+.solitaire_game2 {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+}
+
+.solitaire_rights_button {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+}
+
+.solitaire_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.solitaire_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.solitaire_right_h2 {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 126.5%;
+  text-transform: uppercase;
+  color: #ed1556;
+}
+
+.solitaire_right_p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.solitaire_rights {
+  margin-bottom: 5%;
+}
+
+.solitaire_features {
+  background-color: #fdebf1;
+}
+
+.features_h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.features_h1_name {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 69px;
+  text-align: center;
+  color: #ed1556;
+}
+
+.solitaire_other {
+  background-color: #fdebf1;
+}
+
+.other-h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other_h1_name {
+  margin:  2%;
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 69px;
+  text-align: center;
+  color: #ed1556;
+}

@@ -1,0 +1,126 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:ital,wght@0,400;1,300&family=Prompt:wght@600&family=Roboto&family=Sigmar+One&family=Titan+One&display=swap'); */
+.video_earth {
+    width: 100%;
+    height: auto;
+  }
+  
+  .earth_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Animation fly cards */
+  
+  .flying-tags {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tag {
+    position: absolute;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: none;
+    color: #ffffff;
+    border-radius: 20px;
+    opacity: 0;
+    animation: fly 10s infinite;
+  }
+  
+  .tag-1 {
+    animation-delay: 0s;
+  }
+  
+  .tag-2 {
+    animation-delay: 2s;
+  }
+  
+  .tag-3 {
+    animation-delay: 4s;
+  }
+  
+  .tag-4 {
+    animation-delay: 6s;
+  }
+  
+  .tag-content {
+    /* Add your styles for the tag content here */
+    /* color: #ffffff; */
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  @keyframes fly {
+    0% {
+      opacity: 0;
+      transform: translate(0, 0);
+    }
+    10% {
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(-400px);
+      opacity: 0;
+    }
+    80% {
+      transform: translateX(690px);
+      opacity: 1;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(0, 0);
+    }
+  }
+  
+  .box1 {
+    width: 22rem;
+  }
+  
+  .box2 {
+    width: 30rem;
+  }
+  
+  .box3 {
+    width: 30rem;
+  }
+  
+  .box4 {
+    width: 22rem;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Responsive earth */
+
+  @media only screen and (max-width: 1300px) {
+    .flying-tags {
+      display: none;
+    }
+  }
+

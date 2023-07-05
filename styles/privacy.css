@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:ital,wght@0,400;1,300&family=Prompt:wght@600&family=Roboto&family=Sigmar+One&family=Titan+One&display=swap'); */
+.content__container {
+  text-align: start;
+  padding: 90px 20%;
+}
+
+.content__p {
+  margin-bottom: 20px;
+}
+
+.content__noidung {
+  margin: 10px 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.ul {
+  list-style-type: disc;
+}
+
+.li {
+  margin-left: 20px; 
+  padding-left: 10px; 
+  border-left: 2px solid rgb(255, 255, 255); 
+}
+
+.table {
+  border-collapse: collapse; 
+  width: 1252px;
+}
+
+td,
+th {
+  border: 1px solid rgb(0, 0, 0); 
+  padding: 8px; 
+  text-align: center;
+}
+
+.table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+  border-collapse: collapse; 
+  width: 90%;
+}

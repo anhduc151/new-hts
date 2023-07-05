@@ -1,0 +1,569 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:ital,wght@0,400;1,300&family=Prompt:wght@600&family=Roboto&family=Sigmar+One&family=Titan+One&display=swap"); */
+.about_heasding {
+  background-color: #fdebf0;
+  text-align: center;
+  padding: 10% 16%;
+}
+
+.about_heasding_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.about_heasing_p {
+  color: black;
+  font-size: 2rem;
+  padding-bottom: 5%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+}
+
+.about_header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdebf0;
+}
+
+.about_head {
+  width: 40%;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.about_righter1 {
+  width: 55%;
+}
+
+.about_h2 {
+  padding: 0 30%;
+  font-family: "Titan One", cursive;
+  color: #ed1556;
+}
+
+.about_banding {
+  /* background-color: #fdebf0; */
+  padding: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_banding_box {
+  width: 86%;
+  padding-bottom: 2%;
+  background: #ffb4ca;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about_box_child {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.about_banding-contact {
+  color: #ed1556;
+  font-family: "Titan One", cursive;
+  font-size: 6rem;
+  margin: 6% 0;
+}
+
+.box_child1 {
+  width: 30%;
+  padding-top: 1%;
+  background: #ffffff;
+  border-radius: 45px;
+}
+
+.box_child1:hover {
+  background-color: #f7f7f7;
+  transform: translateX(-5px) translateY(-5px);
+  box-shadow: 6px 6px 0 0 #121212;
+  transition: 0.5s;
+}
+
+.box_child1_name {
+  color: #ed1556;
+  font-family: "Titan One", cursive;
+  text-align: center;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.box_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bxl-instagram-alt,
+.bxl-twitter,
+.bxl-facebook {
+  color: #ed1556;
+  border-radius: 45px;
+  font-size: 4rem;
+  border: 3px solid #ed1556;
+  padding: 2%;
+}
+
+.about_icons {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(10);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about_heasding_images,
+.about_heasing_p {
+  animation: fade-in 1.5s ease-out;
+}
+
+.about_heasding_images {
+  transition: transform 0.5s ease;
+}
+
+.about_heasding_images:hover {
+  transform: scale(1.2);
+}
+
+/* about dot */
+.game-section .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.pad-side-10 {
+  padding: 0 10% !important;
+}
+
+.timeline {
+  min-height: 60vh;
+  position: relative;
+}
+.pad-side-20 {
+  padding: 0 10% !important;
+  margin-top: 10%;
+}
+
+.milestone-container .milestone-content {
+  display: flex;
+  flex-basis: calc(50% - 20px);
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.milestone-container .milestone-content .time {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.3rem 0;
+}
+
+.milestone-container .milestone-image {
+  flex-basis: calc(50% - 6px);
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.milestone-container .milestone-image img {
+  height: 7rem;
+  object-fit: contain;
+  width: 7rem;
+}
+
+.milestone-container:nth-child(odd) .dot {
+  left: calc(50% - 6px);
+}
+.milestone-container .dot {
+  background-color: #0680f9;
+  border-radius: 50%;
+  height: 1rem;
+  position: absolute;
+  top: 1rem;
+  width: 1rem;
+}
+
+.milestone-container:nth-child(2n) {
+  flex-direction: row-reverse !important;
+  justify-content: space-between !important;
+}
+
+.milestone-container {
+  align-items: center !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+  position: relative;
+}
+
+.milestone-container:nth-child(2n) .milestone-content {
+  align-items: flex-start;
+}
+
+.milestone-container .milestone-content {
+  display: flex;
+  flex-basis: calc(50% - 20px);
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.milestone-container:nth-child(2n) .milestone-content p {
+  text-align: left;
+}
+.milestone-container .milestone-content .time {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.3rem 0;
+}
+
+.milestone-container:nth-child(2n) .milestone-content p {
+  text-align: left;
+  color: black;
+  font-family: "Josefin Sans";
+}
+
+.milestone-container .milestone-image {
+  flex-basis: calc(50% - 6px);
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.milestone-container .milestone-image img {
+  height: 7rem;
+  object-fit: contain;
+  width: 7rem;
+}
+
+.milestone-container:nth-child(2n) .dot {
+  left: calc(50% - 6px);
+}
+.milestone-container .dot {
+  background-color: #ed1556;
+  border-radius: 50%;
+  height: 1rem;
+  position: absolute;
+  top: 1rem;
+  width: 1rem;
+}
+
+.milestone-container {
+  align-items: center !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+  position: relative;
+}
+
+.milestone-container:nth-child(odd) .milestone-content {
+  align-items: flex-end;
+}
+
+.milestone-container .milestone-content {
+  display: flex;
+  flex-basis: calc(50% - 20px);
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.milestone-container .milestone-content .time {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0.3rem 0;
+  color: black;
+  font-family: "Josefin Sans";
+}
+
+.event {
+  font-size: 1.5rem;
+}
+
+.milestone-container:nth-child(odd) .milestone-content p {
+  text-align: right;
+  color: black;
+  font-family: "Josefin Sans";
+}
+
+.milestone-container {
+  align-items: center !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+  position: relative;
+  gap: 2rem;
+}
+
+.timeline:after {
+  background-image: repeating-linear-gradient(#ed1556, #ed1556 1px);
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  right: auto;
+  top: 0;
+  width: 4px;
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .game-section {
+    background-image: linear-gradient(#1f1f1f, hsla(0, 0%, 100%, 0));
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 10px;
+  }
+  .infor-item {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 60%;
+  }
+  .game-section .title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .game-section .description {
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 2060px) {
+  .game-section {
+    background-image: linear-gradient(#1f1f1f, hsla(0, 0%, 100%, 0));
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 10px;
+  }
+  .game-section .title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .game-section .description {
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  .infor-item {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .game-section {
+    background-image: linear-gradient(#1f1f1f, hsla(0, 0%, 100%, 0));
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 10px;
+  }
+  .game-section .title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .game-section .description {
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  .game-section .description {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .about-container .timeline {
+    padding: 0 !important;
+  }
+  .about-container .timeline .time {
+    font-size: 1rem;
+  }
+  .about-container .timeline .event {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-container .timeline {
+    padding: 0 !important;
+  }
+  .about-container .timeline .time {
+    font-size: 0.2rem !important;
+  }
+  .about-container .timeline .event {
+    font-size: 0.2rem !important;
+  }
+
+  .milestone-container .milestone-content .time {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0.3rem 0;
+    color: black;
+    font-family: "Josefin Sans";
+  }
+
+  .milestone-container:nth-child(odd) .milestone-content p {
+    text-align: right;
+    color: black;
+    font-family: "Josefin Sans";
+    font-size: 15px;
+  }
+
+  .milestone-container:nth-child(2n) .milestone-content p {
+    font-size: 15px !important;
+  }
+}
+
+/* end about dot */
+/* Responsive aboutus */
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .about_heasding {
+    padding: 295 20%;
+  }
+
+  .about_heasing_p {
+    font-size: 1.5rem;
+  }
+
+  .box_child1 {
+    width: 28%;
+  }
+
+  .box_child1_name {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .about_heasding_img {
+    padding: 5% 40%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about_heasding_images {
+    width: 600px;
+    height: 80%;
+  }
+
+  .about_heasing_p {
+    font-size: 1rem;
+  }
+
+  .about_h2 {
+    padding: 0 5%;
+    font-size: 5rem;
+  }
+
+  .about_banding-contact {
+    font-size: 4rem;
+  }
+
+  .box_child1_name {
+    font-size: 1.2rem;
+  }
+
+  .box_child1 {
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about_icons {
+    text-align: center;
+    /* margin: 2rem 0; */
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about_heasding_images {
+    width: 20rem;
+  }
+
+  .about_heasding {
+    background-color: #fdebf0;
+    text-align: center;
+    padding: 29% 16%;
+  }
+
+  .about_heasing_p {
+    font-size: 0.6rem;
+  }
+
+  .about_header {
+    gap: 2rem;
+    padding: 10% 0;
+  }
+
+  .about_banding {
+    padding: 19% 2%;
+  }
+
+  .about_banding-contact {
+    font-size: 1.5rem;
+  }
+
+  .about_box_child {
+    gap: 0.5rem;
+  }
+
+  .box_child1_name {
+    font-size: 0.6rem;
+  }
+
+  .bxl-instagram-alt,
+  .bxl-twitter,
+  .bxl-facebook {
+    font-size: 1rem;
+  }
+
+  .box_child1 {
+    border-radius: 20px;
+  }
+
+  .milestone-content {
+    text-align: center;
+  }
+}

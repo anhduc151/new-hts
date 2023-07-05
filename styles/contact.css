@@ -1,0 +1,914 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:ital,wght@0,400;1,300&family=Prompt:wght@600&family=Roboto&family=Sigmar+One&family=Titan+One&display=swap'); */
+.form_button_btn:hover {
+  background-color: #920e36;
+}
+
+.form_contact {
+  filter: drop-shadow(12px 12px 7px rgba(199, 83, 143, 0.7));
+}
+
+.contact_img1 {
+  filter: drop-shadow(12px 12px 7px #ecbfb2);
+}
+
+.form_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_button_supports {
+  background: #ed1556;
+  padding: 1%;
+  border-radius: 37.5px;
+  border: none;
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  width: 20rem;
+}
+
+.form_button_supports:hover {
+  background: #ed1556;
+  transform: translateX(-5px) translateY(-5px);
+  box-shadow: 5px 5px 0 0 #121212;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 1500px) and (max-width: 2060px) {
+  .contact_licensing {
+    position: relative;
+    background-color: #fdebf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+  }
+
+  .contact_licensing_infor {
+    position: absolute;
+    top: 34%;
+  }
+
+  .contact_licensing_infor_h1 {
+    color: #ed1556;
+    font-family: Titan One, cursive;
+    font-size: 5rem;
+  }
+
+  .contact_licensing_infor_h4 {
+    color: #000000;
+    font-size: 24px;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    position: relative;
+    right: -28rem;
+  }
+
+  .contact_form {
+    background-color: #fdebf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+  }
+
+  .form_contact {
+    background-image: url("../public/images/contact-background-form.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 10%;
+  }
+
+  .form_name1 .form_name1_h2 {
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    padding: 0 12%;
+    position: relative;
+    /* top: -4rem; */
+  }
+
+  .form_name1 .form_name1_p {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 24px;
+    padding: 7% 13%;
+    position: relative;
+    /* top: -5rem; */
+  }
+
+  .contact_car {
+    position: relative;
+    top: -8rem;
+  }
+
+  .form_heading {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form_button {
+    width: 100%;
+  }
+
+  .form_button_input {
+    background: #ffffff;
+    border-radius: 56px;
+    border: none;
+    width: 80%;
+    padding: 2rem;
+    color: black;
+  }
+
+  .form_button_btn {
+    background: #ed1556;
+    font-family: "Titan One";
+    border-radius: 56px;
+    border: none;
+    /* padding: 2rem; */
+    height: 79px;
+    width: 20%;
+    color: #fff;
+    top: 8px;
+    right: 6rem;
+    font-size: 2rem;
+    position: relative;
+  }
+
+  /* contact-section */
+  .contact-infor-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    background-color: #fdebf0;
+  }
+
+  @keyframes shaking {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(10deg);
+    }
+
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes flying {
+    0% {
+      margin-top: 0px;
+    }
+    50% {
+      margin-top: 25px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+
+  .contact-infor-section .contact-card {
+    position: absolute;
+    width: 20%;
+  }
+
+  .contact-infor-section .contact-card:first-child .contact-panel {
+    animation-delay: 0.5s;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    transform: rotateY(10deg);
+    transform-origin: 50% 50% 0px;
+  }
+
+  .contact-infor-section .contact-card .contact-panel {
+    background-color: rgb(255, 255, 255);
+    border-radius: 45px;
+    margin: 5px;
+    min-height: fit-content;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    animation-duration: 1.5s !important;
+    animation-iteration-count: infinite !important;
+    animation-name: flying !important;
+    animation-timing-function: ease-in-out !important;
+  }
+
+  .contact-infor-section .character {
+    aspect-ratio: 1.7 / 1;
+    height: auto;
+    filter: drop-shadow(12px 12px 7px rgba(39, 33, 36, 0.7));
+    object-fit: contain;
+    width: 15%;
+  }
+
+  .contact-infor-section .contact-card:nth-child(4) {
+    left: 25%;
+    top: 63%;
+  }
+
+  .contact-infor-section .contact-card img {
+    border-radius: 2rem;
+    width: 100%;
+  }
+
+  .contact-infor-section .contact-card:nth-child(2) {
+    right: 21%;
+    top: 10%;
+  }
+
+  .contact-infor-section .contact-card:nth-child(3) {
+    right: 22%;
+    top: 63%;
+  }
+
+  .contact-infor-section .contact-card {
+    position: absolute;
+    width: 20%;
+  }
+
+  .contact-infor-section .contact-card img {
+    border-radius: 2rem;
+    width: 100%;
+  }
+
+  .contact-infor-section .contact-card:first-child {
+    left: 23%;
+    top: 10%;
+  }
+
+  .contact-panel-title {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 32px;
+    color: #ed1556;
+    text-align: center;
+  }
+}
+
+/* Responsive contact */
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+  .form_button_supports {
+    background: #ed1556;
+    padding: 1%;
+    border-radius: 37.5px;
+    border: none;
+    font-family: "Titan One";
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .contact_licensing {
+    height: 150vh;
+  }
+
+  .contact_licensing {
+    position: relative;
+  }
+
+  .contact_licensing_infor {
+    position: absolute;
+    top: 32%;
+  }
+
+  .contact_licensing_infor_h1 {
+    color: #ed1556;
+    font-family: Titan One, cursive;
+    font-size: 5rem;
+  }
+
+  .contact_licensing_infor_h4 {
+    color: #000000;
+    font-size: 24px;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    position: relative;
+    right: -28rem;
+  }
+
+  .form_button {
+    width: 100%;
+  }
+
+  /*  */
+  .contact_licensing {
+    background-color: #fdebf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+  }
+
+  .contact_form {
+    background-color: #fdebf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+  }
+
+  .form_contact {
+    background-image: url("../public/images/contact-background-form.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 10%;
+  }
+
+  .form_name1 .form_name1_h2 {
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    padding: 0 12%;
+    position: relative;
+    /* top: -4rem; */
+  }
+
+  .form_name1 .form_name1_p {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 24px;
+    padding: 7% 13%;
+    position: relative;
+    /* top: -5rem; */
+  }
+
+  .contact_car {
+    position: relative;
+    top: -8rem;
+  }
+
+  .form_heading {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form_button {
+    width: 100%;
+  }
+
+  .form_button_input {
+    background: #ffffff;
+    border-radius: 56px;
+    border: none;
+    width: 80%;
+    padding: 2rem;
+    color: black;
+  }
+
+  .form_button_btn {
+    background: #ed1556;
+    font-family: "Titan One";
+    border-radius: 56px;
+    border: none;
+    width: 20%;
+    top: 8px;
+    height: 79px;
+    color: #fff;
+    position: relative;
+    right: 10rem;
+    font-size: 2rem;
+  }
+
+  /* contact-section */
+  .contact-infor-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    background-color: #fdebf0;
+  }
+
+  @keyframes shaking {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(10deg);
+    }
+
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes flying {
+    0% {
+      margin-top: 0px;
+    }
+    50% {
+      margin-top: 25px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+
+  .contact-infor-section .contact-card {
+    position: absolute;
+    width: 20%;
+  }
+
+  .contact-infor-section .contact-card:first-child .contact-panel {
+    animation-delay: 0.5s;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    transform: rotateY(10deg);
+    transform-origin: 50% 50% 0px;
+  }
+
+  .contact-infor-section .contact-card .contact-panel {
+    background-color: rgb(255, 255, 255);
+    border-radius: 45px;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    min-height: fit-content;
+    padding: 1rem;
+    animation-duration: 1.5s !important;
+    animation-iteration-count: infinite !important;
+    animation-name: flying !important;
+    animation-timing-function: ease-in-out !important;
+  }
+
+  .contact-infor-section .character {
+    aspect-ratio: 1.7 / 1;
+    height: auto;
+    filter: drop-shadow(12px 12px 7px rgba(39, 33, 36, 0.7));
+    object-fit: contain;
+    width: 15%;
+  }
+
+  .contact-infor-section .contact-card img {
+    border-radius: 2rem;
+    width: 100%;
+  }
+
+  .contact-infor-section .contact-card:first-child {
+    left: 12%;
+    top: 10%;
+  }
+
+  .contact-infor-section .contact-card:nth-child(2) {
+    right: 12%;
+    top: 10%;
+  }
+
+  .contact-infor-section .contact-card:nth-child(3) {
+    right: 15%;
+    top: 63%;
+  }
+
+  .contact-infor-section .contact-card:nth-child(4) {
+    left: 15%;
+    top: 63%;
+  }
+
+  .contact-infor-section .contact-card {
+    position: absolute;
+    width: 25%;
+  }
+
+  .contact-infor-section .contact-card img {
+    border-radius: 2rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .contact-panel-title {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 32px;
+    color: #ed1556;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .form_button_supports {
+    background: #ed1556;
+    /* padding: 1%; */
+    border-radius: 37.5px;
+    border: none;
+    font-family: "Titan One";
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    width: 10rem;
+  }
+
+  .contact_licensing {
+    position: relative;
+  }
+
+  .contact_licensing_infor {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    right: 25%;
+  }
+
+  .contact_licensing_infor_h1 {
+    color: #ed1556;
+    font-family: Titan One, cursive;
+    font-size: 3rem;
+  }
+
+  .contact_licensing_infor_h4 {
+    color: #000000;
+    font-size: 12px;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    position: relative;
+    right: -19rem;
+  }
+
+  .contact-infor-section .character {
+    display: none;
+  }
+
+  .contact-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    height: calc(100ch - 90px);
+    justify-content: center;
+  }
+  .contact-header .title {
+    color: #ed1556;
+    font-size: 6rem;
+    font-weight: bolder;
+    margin: 2rem;
+  }
+  .contact-header .image {
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-header .image img {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    width: 50%;
+  }
+
+  .contact-infor-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-infor-section .contact-card {
+    width: calc(50% - 10px - 2rem);
+  }
+  .contact-infor-section .contact-card .contact-panel {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin: 5px;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    padding: 1rem;
+  }
+  .contact-infor-section .contact-card p {
+    color: #ed1556;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .contact-infor-section .contact-card .contact-panel {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin: 5px;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    padding: 1rem;
+  }
+  .contact-infor-section .contact-card p {
+    color: #ed1556;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .contact-infor-section .contact-card .contact-panel {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin: 5px;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    padding: 1rem;
+  }
+  .contact-infor-section .contact-card p {
+    color: #ed1556;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .contact-infor-section .contact-card:nth-child(4) {
+    left: 15%;
+    top: 60%;
+  }
+  .contact-infor-section .contact-card {
+    width: calc(50% - 10px - 2rem);
+  }
+  .contact-infor-section .contact-card .contact-panel {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
+    min-height: fit-content;
+    padding: 1rem;
+  }
+  .contact-infor-section .contact-card p {
+    color: #ed1556;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+    font-family: "Josefin Sans", sans-serif;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .contact-infor-section .contact-card img {
+    border-radius: 1rem;
+    width: 100%;
+    max-height: 100%;
+    height: 150px;
+    object-fit: contain;
+  }
+  .contact-infor-section .character {
+    aspect-ratio: 1.7;
+    display: none;
+    height: auto;
+    object-fit: contain;
+    width: 20%;
+  }
+  .contact-infor-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5rem;
+    padding-top: 12%;
+  }
+
+  .contact_form {
+    background-color: #fdebf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+  }
+
+  .form_contact {
+    background-image: url("../public/images/contact-background-form.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 10%;
+  }
+
+  .form_name1 .form_name1_h2 {
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 0 12%;
+    position: relative;
+
+    top: 1rem;
+  }
+
+  .form_name1 .form_name1_p {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    /* line-height: 24px; */
+    padding: 7% 13%;
+    position: relative;
+    top: 1rem;
+  }
+
+  .contact_car {
+    position: relative;
+    top: -1rem;
+  }
+
+  .form_heading {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form_button {
+    width: 100%;
+  }
+
+  .form_button_input {
+    background: #ffffff;
+    border-radius: 56px;
+    border: none;
+    width: 80%;
+    padding: 1rem;
+    color: black;
+  }
+
+  .form_button_btn {
+    background: #ed1556;
+    font-family: "Titan One";
+    border-radius: 56px;
+    border: none;
+    /* padding: 1rem; */
+    width: 20%;
+    height: 47px;
+    top: 2px;
+    color: #fff;
+    position: relative;
+    right: 4rem;
+    font-size: 1rem;
+  }
+
+  .contact_img1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .form_name1 {
+    width: 100%;
+  }
+
+  .contact_car {
+    max-width: 100%;
+    width: 300px;
+    max-height: 100%;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .form_button_supports {
+    background: #ed1556;
+    /* padding: 1%; */
+    border-radius: 37.5px;
+    border: none;
+    font-family: "Titan One";
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    width: 6rem;
+  }
+
+  .contact-infor-section .contact-card img {
+    border-radius: 1rem;
+    width: 100%;
+    max-height: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .contact-infor-section .contact-card .contact-panel {
+    padding: 0.5rem;
+  }
+
+  .contact_licensing {
+    position: relative;
+  }
+
+  .contact_licensing_infor {
+    position: absolute;
+    top: 20%;
+    left: 29%;
+  }
+
+  .contact_licensing_infor_h1 {
+    color: #ed1556;
+    font-family: Titan One, cursive;
+    font-size: 1.4rem;
+  }
+
+  .contact_licensing_infor_h4 {
+    color: #000000;
+    font-size: 12px;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    position: relative;
+    right: -8rem;
+  }
+  .contact_car {
+    position: relative;
+    bottom: -0.5rem;
+  }
+
+  .contact_car {
+    max-width: 100%;
+    width: 140px;
+    max-height: 100%;
+    height: 90px;
+  }
+
+  .form_name1 .form_name1_h2 {
+    font-size: 0.5rem;
+  }
+
+  .form_button_input {
+    background: #ffffff;
+    border-radius: 56px;
+    border: none;
+    width: 80%;
+    padding: 0.3rem;
+    color: black;
+  }
+
+  .form_button_btn {
+    background: #ed1556;
+    font-family: "Titan One";
+    border-radius: 25px;
+    border: none;
+    height: 25px;
+    /* padding: 0.6rem; */
+    width: 20%;
+    position: relative;
+    top: -1px;
+    color: #fff;
+    right: 2rem;
+    font-size: 0.5rem;
+  }
+
+  .form_name1 .form_name1_p {
+    font-size: 0.5rem;
+  }
+
+  .form_contact {
+    padding: 10% !important;
+  }
+
+  .contact-infor-section {
+    padding-top: 29%;
+  }
+}
